@@ -1,0 +1,47 @@
+/************************************************/
+/************ WP Login Panel Style **************/
+/************************************************/
+
+body.login.login-action-login.wp-core-ui.locale-en-us, .login-action-lostpassword  {
+
+	 background: url(../images/banner5.jpg) no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+
+}
+.login #login h1 {margin: 0 0 10px;}
+
+h1 a{margin: 0 auto 0 auto !important; background-size: contain !important;}
+.login #backtoblog{ float: right; margin-left: 0;padding:15px 0px !important;}
+#loginform,#lostpasswordform,#registerform{
+      background: rgb(189, 163, 123);
+    border: 1px solid rgba(255, 255, 255, 0.27);
+    }
+#loginform .input,#lostpasswordform .input,#registerform .input{background: #fff !important;border: solid 1px #ccc; !important;color: #787878 !important;font-size: 14px !important;outline: medium none !important;padding:7px 10px !important;width: 270px !important;height:45px;    box-shadow: none;}
+p.message{border-left: 4px solid #de8027 !important;}
+p.reset-pass{display:none !important;}
+p label,#reg_passmail{color:#ffffff    !important; font-weight: bold;}
+p.submit input{background: #037C7E !important;border: medium none !important;color: #fff !important;}
+p.submit input:hover{background: #1EBFB4 !important;cursor: pointer !important;}
+.login #nav { float: left; margin-left: 0;padding:13px 0 0 5px;color:#FFF; }
+.login #backtoblog{float:right;}
+.login #nav a,.login #backtoblog a{font-weight: bold; color:#ffffff; !important;font-size:15px;text-decoration:none;padding: 0 2px;transition:all 0.3s ease; -webkit-transition:all 0.3s ease;}
+.login #nav a:hover,.login #backtoblog a:hover{color:#5d5d5d  !important;}
+.wp-core-ui #login .button-primary{ background: #000   !important; text-shadow: none; box-shadow: none; -webkit-box-shadow: none; border:0; transition:all 0.3s ease; -webkit-transition:all 0.3s ease;}
+.wp-core-ui #login .button-primary:hover{background: #2d0401 !important;}
+input[type=checkbox]:checked:before{ color: #324494;}
+
+.login #nav {    margin: 16px 0 0;}
+a:focus{outline: inherit; box-shadow: none}
+.login, html
+{
+	background: url(https://www.luxurykey.com/wp-content/uploads/2019/02/banner2-1.jpeg) !important;
+ background-repeat: no-repeat;
+  background-size: cover !important;
+    
+}
+p label, #reg_passmail {
+    color: #c31f1f !important;
+    font-weight: bold;
+}
+
